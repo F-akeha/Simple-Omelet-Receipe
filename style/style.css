@@ -1,119 +1,141 @@
-@font-face{
+@font-face {
     font-family: Outfit;
     src: url(../font/Outfit-Regular.ttf);
 }
-body{
+
+body {
     margin: 0;
     padding: 10px;
     font-family: Outfit, sans-serif;
     background-color: bisque;
     justify-items: center;
-    
+
 }
-.container{
+
+.container {
     padding: 20px;
     width: 20%;
     height: 70%;
     background-color: white;
 }
-.image{
+
+.image {
     width: 250px;
     height: 160px;
     border-radius: 10px;
 }
-.main-heading{
-    text-align:left;
+
+.main-heading {
+    text-align: left;
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
 }
-.heading1{
+
+.heading1 {
     font-size: 1.4rem;
     color: rgb(23, 23, 23);
 }
-.description{
+
+.description {
     font-size: 0.6rem;
     color: rgb(87, 87, 87);
 }
-.list1{
+
+.list1 {
     font-size: 0.6rem;
     margin-left: -20px;
 }
-.sub-heading{
-    color:rgb(105, 45, 105);
+
+.sub-heading {
+    color: rgb(105, 45, 105);
     font-size: 0.8rem;
 }
-.time{
+
+.time {
     color: rgb(87, 87, 87);
     margin-left: 10px;
 }
-.bold{
+
+.bold {
     color: rgb(56, 56, 56);
 }
-.list2{
+
+.list2 {
     font-size: 1.2rem;
     margin-left: -20px;
 }
-.heading2{
-    color:rgb(110, 48, 4);
+
+.heading2 {
+    color: rgb(110, 48, 4);
     font-size: 1.2rem;
     margin-left: -20px;
     font-family: 'Times New Roman', Times, serif;
 }
-.ingredients{
+
+.ingredients {
     font-size: 0.7rem;
     color: rgb(87, 87, 87);
 }
-.list3{
+
+.list3 {
     font-size: 1.2rem;
     margin-left: -20px;
 }
-.instructions{
-    color:rgb(56, 56, 56);
+
+.instructions {
+    color: rgb(56, 56, 56);
     font-size: 0.7rem;
 }
-.text{
+
+.text {
     font-size: 0.6rem;
     color: rgb(87, 87, 87);
 }
-.nutrition{
+
+.nutrition {
     margin-left: 20px;
     font-size: 1.2rems;
 }
-.description1{
+
+.description1 {
     margin-left: -20px;
     font-size: 0.6rem;
     color: rgb(87, 87, 87);
 }
-.table{
+
+.table {
     width: 100%;
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
-.row{
+
+.row {
     border-collapse: collapse;
     border: 1px solid black;
 }
-.col1{
+
+.col1 {
     color: rgb(87, 87, 87);
     font-size: 0.6rem;
     margin-bottom: 10px;
 }
-.col2{
+
+.col2 {
     color: rgb(110, 48, 4);
     font-size: 0.6rem;
     margin-bottom: 12px;
 }
+
 @media screen and (max-width:800px) {
-    .container{
-    /* padding: 20px;
+    .container {
+        /* padding: 20px;
     height: 70%; */
-    background-color:rgb(192, 168, 131);
-    width: 20%;
-}
-.image{
-    width: 150px;
-    height: 140px;
-    /* border-radius: 10px; */
-}
-}
+        background-color: rgb(192, 168, 131);
+        width: 20%;
+    }
 
-
+    .image {
+        width: 150px;
+        height: 140px;
+        /* border-radius: 10px; */
+    }
+}
