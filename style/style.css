@@ -44,6 +44,9 @@ body {
 .list1 {
     font-size: 0.6rem;
     margin-left: -20px;
+    background-color: rgb(235, 213, 216);
+    width: 70%;
+    margin-left: .5rem;
 }
 
 .sub-heading {
