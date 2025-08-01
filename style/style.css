@@ -109,6 +109,9 @@ body {
 .table {
     width: 100%;
     border-collapse: collapse;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .row {
