@@ -102,6 +102,9 @@ body {
     font-size: 0.6rem;
     color: rgb(87, 87, 87);
 }
+.hr1{
+    color: rgb(113, 109, 109);
+}
 
 .table {
     width: 100%;
@@ -130,12 +133,13 @@ body {
         /* padding: 20px;
     height: 70%; */
         background-color: rgb(192, 168, 131);
-        width: 20%;
+        width: 40%;
+        height: 50%;
     }
 
     .image {
-        width: 150px;
-        height: 140px;
+        width: 100px;
+        height: 120px;
         /* border-radius: 10px; */
     }
 }
