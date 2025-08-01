@@ -113,13 +113,7 @@ body {
     width: 100%;
     border-collapse: collapse;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-}
-
-.row {
-    border-collapse: collapse;
-    border: 1px solid black;
 }
 
 .col1 {
